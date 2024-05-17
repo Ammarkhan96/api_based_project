@@ -1,7 +1,7 @@
 "use client";
 
 import '../../../src/app/dictionary/style.css';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link'
 
 const page = () => {
