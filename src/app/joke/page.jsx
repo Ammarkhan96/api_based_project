@@ -25,7 +25,7 @@ const page = () => {
         <div className='w-[65min] p-10 text-center rounded-md bg-[#284688]'>
           <span className='text-5xl'>&#128514;</span>
           <p className='my-8 text-gray-200'>{joke}</p>
-          <button className='btn' onClick={generateJoke}>Generate Joke</button>
+          <button className='btn' onClick={generateJoke}>Generate Jokes</button>
 
         </div>
         <Link className='back' href='/'>&#8592; &nbsp; Back</Link>
